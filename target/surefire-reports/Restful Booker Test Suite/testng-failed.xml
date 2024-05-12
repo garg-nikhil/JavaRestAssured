@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Restful Booker Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="in.reqres.utility.TestListener"/>
+    <listener class-name="in.reqres.utility.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Restful Booker JSON Schema Validation tests(failed)" verbose="0">
+    <classes>
+      <class name="com.restfulbooker.JsonSchemaValidationTest">
+        <methods>
+          <include name="testCreateJsonSchema"/>
+          <include name="testGetBookingJsonSchema"/>
+          <include name="testCreateBookingJsonSchema"/>
+          <include name="setup"/>
+          <include name="testUpdateBookingJsonSchema"/>
+          <include name="testUpdatePartialBookingJsonSchema"/>
+        </methods>
+      </class> <!-- com.restfulbooker.JsonSchemaValidationTest -->
+    </classes>
+  </test> <!-- Restful Booker JSON Schema Validation tests(failed) -->
+  <test thread-count="3" parallel="tests" name="Restful Booker tests(failed)" verbose="0">
+    <classes>
+      <class name="com.restfulbooker.RestfulBookerE2ETests">
+        <methods>
+          <include name="checkBookingIsDeleted"/>
+          <include name="createBookingTest"/>
+          <include name="getBookingTest"/>
+          <include name="updatePartialBookingTest"/>
+          <include name="deleteBookingTest"/>
+          <include name="setup"/>
+          <include name="updateBookingTest"/>
+          <include name="testSetup"/>
+          <include name="testTokenGeneration"/>
+        </methods>
+      </class> <!-- com.restfulbooker.RestfulBookerE2ETests -->
+    </classes>
+  </test> <!-- Restful Booker tests(failed) -->
+</suite> <!-- Failed suite [Restful Booker Test Suite] -->

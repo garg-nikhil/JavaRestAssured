@@ -1,0 +1,1 @@
+{"uuid":"22df0865-90b9-42b3-8580-ed990ef69900","name":"in.reqres.TestResponseBodyWithJsonPath","children":["34016a43-9873-4668-a074-8fb58fc94478"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1715513335623,"stop":1715513336415}],"afters":[],"start":1715513335553,"stop":1715513339139}

@@ -1,0 +1,1 @@
+{"uuid":"fe9bb474-5dd9-4ba9-a2dd-14f8b20ff864","name":"in.reqres.TestGetRequestWithRestAssuredSpecs","children":["d90cfff5-0df1-4a77-b941-17cf9e92f59e"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1715513335623,"stop":1715513336415}],"afters":[],"start":1715513335553,"stop":1715513339139}
